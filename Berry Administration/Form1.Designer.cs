@@ -153,7 +153,7 @@
             this.comboBox1.Items.AddRange(new object[] {
             "Recopilador",
             "Administrador"});
-            this.comboBox1.Location = new System.Drawing.Point(255, 185);
+            this.comboBox1.Location = new System.Drawing.Point(255, 113);
             this.comboBox1.Name = "comboBox1";
             this.comboBox1.Size = new System.Drawing.Size(203, 21);
             this.comboBox1.TabIndex = 11;
@@ -165,7 +165,7 @@
             this.pictureBox2.BackColor = System.Drawing.Color.Transparent;
             this.pictureBox2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.pictureBox2.Image = global::Berry_Administration.Properties.Resources.user;
-            this.pictureBox2.Location = new System.Drawing.Point(313, 82);
+            this.pictureBox2.Location = new System.Drawing.Point(313, 4);
             this.pictureBox2.Name = "pictureBox2";
             this.pictureBox2.Size = new System.Drawing.Size(87, 87);
             this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
