@@ -1,0 +1,49 @@
+C:\Users\Lucia Isabel\source\repos\Berry Administration\Berry Administration\bin\Debug\Berry Administration.exe.config
+C:\Users\Lucia Isabel\source\repos\Berry Administration\Berry Administration\bin\Debug\Berry Administration.exe
+C:\Users\Lucia Isabel\source\repos\Berry Administration\Berry Administration\bin\Debug\Berry Administration.pdb
+C:\Users\Lucia Isabel\source\repos\Berry Administration\Berry Administration\obj\Debug\Berry Administration.csproj.AssemblyReference.cache
+C:\Users\Lucia Isabel\source\repos\Berry Administration\Berry Administration\obj\Debug\Berry_Administration.Form1.resources
+C:\Users\Lucia Isabel\source\repos\Berry Administration\Berry Administration\obj\Debug\Berry_Administration.Form2.resources
+C:\Users\Lucia Isabel\source\repos\Berry Administration\Berry Administration\obj\Debug\Berry_Administration.Form3.resources
+C:\Users\Lucia Isabel\source\repos\Berry Administration\Berry Administration\obj\Debug\Berry_Administration.Form4.resources
+C:\Users\Lucia Isabel\source\repos\Berry Administration\Berry Administration\obj\Debug\Berry_Administration.Form5.resources
+C:\Users\Lucia Isabel\source\repos\Berry Administration\Berry Administration\obj\Debug\Berry_Administration.Form6.resources
+C:\Users\Lucia Isabel\source\repos\Berry Administration\Berry Administration\obj\Debug\Berry_Administration.Properties.Resources.resources
+C:\Users\Lucia Isabel\source\repos\Berry Administration\Berry Administration\obj\Debug\Berry Administration.csproj.GenerateResource.cache
+C:\Users\Lucia Isabel\source\repos\Berry Administration\Berry Administration\obj\Debug\Berry Administration.csproj.CoreCompileInputs.cache
+C:\Users\Lucia Isabel\source\repos\Berry Administration\Berry Administration\obj\Debug\Berry Administration.exe
+C:\Users\Lucia Isabel\source\repos\Berry Administration\Berry Administration\obj\Debug\Berry Administration.pdb
+C:\Users\Lucia Isabel\source\repos\Berry Administration\Berry Administration\obj\Debug\Berry_Administration.Form7.resources
+C:\Users\Lucia Isabel\source\repos\Berry Administration\Berry Administration\obj\Debug\Berry_Administration.Form8.resources
+C:\Users\Lucia Isabel\source\repos\Berry Administration\Berry Administration\obj\Debug\Berry_Administration.Form9.resources
+C:\Users\giova\OneDrive\Escritorio\Berry Administration\Berry Administration\bin\Debug\Berry Administration.exe.config
+C:\Users\giova\OneDrive\Escritorio\Berry Administration\Berry Administration\bin\Debug\Berry Administration.exe
+C:\Users\giova\OneDrive\Escritorio\Berry Administration\Berry Administration\bin\Debug\Berry Administration.pdb
+C:\Users\giova\OneDrive\Escritorio\Berry Administration\Berry Administration\bin\Debug\MySql.Data.dll
+C:\Users\giova\OneDrive\Escritorio\Berry Administration\Berry Administration\bin\Debug\Google.Protobuf.dll
+C:\Users\giova\OneDrive\Escritorio\Berry Administration\Berry Administration\bin\Debug\ZstdNet.dll
+C:\Users\giova\OneDrive\Escritorio\Berry Administration\Berry Administration\bin\Debug\K4os.Compression.LZ4.Streams.dll
+C:\Users\giova\OneDrive\Escritorio\Berry Administration\Berry Administration\bin\Debug\BouncyCastle.Crypto.dll
+C:\Users\giova\OneDrive\Escritorio\Berry Administration\Berry Administration\bin\Debug\Ubiety.Dns.Core.dll
+C:\Users\giova\OneDrive\Escritorio\Berry Administration\Berry Administration\bin\Debug\System.Buffers.dll
+C:\Users\giova\OneDrive\Escritorio\Berry Administration\Berry Administration\bin\Debug\K4os.Compression.LZ4.dll
+C:\Users\giova\OneDrive\Escritorio\Berry Administration\Berry Administration\bin\Debug\K4os.Hash.xxHash.dll
+C:\Users\giova\OneDrive\Escritorio\Berry Administration\Berry Administration\bin\Debug\MySql.Data.xml
+C:\Users\giova\OneDrive\Escritorio\Berry Administration\Berry Administration\obj\Debug\Berry Administration.csproj.AssemblyReference.cache
+C:\Users\giova\OneDrive\Escritorio\Berry Administration\Berry Administration\obj\Debug\Berry Administration.csproj.SuggestedBindingRedirects.cache
+C:\Users\giova\OneDrive\Escritorio\Berry Administration\Berry Administration\obj\Debug\Berry Administration.exe.config
+C:\Users\giova\OneDrive\Escritorio\Berry Administration\Berry Administration\obj\Debug\Berry_Administration.Form1.resources
+C:\Users\giova\OneDrive\Escritorio\Berry Administration\Berry Administration\obj\Debug\Berry_Administration.Form2.resources
+C:\Users\giova\OneDrive\Escritorio\Berry Administration\Berry Administration\obj\Debug\Berry_Administration.Form3.resources
+C:\Users\giova\OneDrive\Escritorio\Berry Administration\Berry Administration\obj\Debug\Berry_Administration.Form4.resources
+C:\Users\giova\OneDrive\Escritorio\Berry Administration\Berry Administration\obj\Debug\Berry_Administration.Form5.resources
+C:\Users\giova\OneDrive\Escritorio\Berry Administration\Berry Administration\obj\Debug\Berry_Administration.Form6.resources
+C:\Users\giova\OneDrive\Escritorio\Berry Administration\Berry Administration\obj\Debug\Berry_Administration.Form7.resources
+C:\Users\giova\OneDrive\Escritorio\Berry Administration\Berry Administration\obj\Debug\Berry_Administration.Form8.resources
+C:\Users\giova\OneDrive\Escritorio\Berry Administration\Berry Administration\obj\Debug\Berry_Administration.Form9.resources
+C:\Users\giova\OneDrive\Escritorio\Berry Administration\Berry Administration\obj\Debug\Berry_Administration.Properties.Resources.resources
+C:\Users\giova\OneDrive\Escritorio\Berry Administration\Berry Administration\obj\Debug\Berry Administration.csproj.GenerateResource.cache
+C:\Users\giova\OneDrive\Escritorio\Berry Administration\Berry Administration\obj\Debug\Berry Administration.csproj.CoreCompileInputs.cache
+C:\Users\giova\OneDrive\Escritorio\Berry Administration\Berry Administration\obj\Debug\Berry Administration.csproj.CopyComplete
+C:\Users\giova\OneDrive\Escritorio\Berry Administration\Berry Administration\obj\Debug\Berry Administration.exe
+C:\Users\giova\OneDrive\Escritorio\Berry Administration\Berry Administration\obj\Debug\Berry Administration.pdb
