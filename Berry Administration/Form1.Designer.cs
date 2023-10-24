@@ -82,7 +82,7 @@
             // 
             this.textBox1.BackColor = System.Drawing.Color.DarkSlateGray;
             this.textBox1.ForeColor = System.Drawing.Color.White;
-            this.textBox1.Location = new System.Drawing.Point(255, 225);
+            this.textBox1.Location = new System.Drawing.Point(255, 207);
             this.textBox1.Margin = new System.Windows.Forms.Padding(2);
             this.textBox1.Name = "textBox1";
             this.textBox1.Size = new System.Drawing.Size(203, 20);
@@ -105,7 +105,7 @@
             // 
             this.textBox2.BackColor = System.Drawing.Color.DarkSlateGray;
             this.textBox2.ForeColor = System.Drawing.Color.White;
-            this.textBox2.Location = new System.Drawing.Point(255, 266);
+            this.textBox2.Location = new System.Drawing.Point(255, 231);
             this.textBox2.Margin = new System.Windows.Forms.Padding(2);
             this.textBox2.Name = "textBox2";
             this.textBox2.Size = new System.Drawing.Size(203, 20);
@@ -165,7 +165,7 @@
             this.pictureBox2.BackColor = System.Drawing.Color.Transparent;
             this.pictureBox2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.pictureBox2.Image = global::Berry_Administration.Properties.Resources.user;
-            this.pictureBox2.Location = new System.Drawing.Point(313, 51);
+            this.pictureBox2.Location = new System.Drawing.Point(313, 72);
             this.pictureBox2.Name = "pictureBox2";
             this.pictureBox2.Size = new System.Drawing.Size(87, 87);
             this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
