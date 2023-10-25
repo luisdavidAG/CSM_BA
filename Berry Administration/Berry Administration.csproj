@@ -172,5 +172,35 @@
   <ItemGroup>
     <None Include="Resources\worker.png" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\caja.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\calendario.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\obrero.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\calendario_Chiquito.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\calendario_Chiquito1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\calendario_Chiquito2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\calendario_Chiquito3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\obrero_chiquito.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\caja_chiquita.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\atras_chiquito.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
