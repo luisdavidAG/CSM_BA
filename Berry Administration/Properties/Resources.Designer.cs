@@ -83,6 +83,16 @@ namespace Berry_Administration.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap fresasfresas {
+            get {
+                object obj = ResourceManager.GetObject("fresasfresas", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap restaurar {
             get {
                 object obj = ResourceManager.GetObject("restaurar", resourceCulture);

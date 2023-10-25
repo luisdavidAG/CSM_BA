@@ -13,12 +13,16 @@ namespace Berry_Administration
 {
     public partial class Form1 : Form
     {
-        static string cadena_conexion = "Server=localhost;user=erikg;password=erikgiovani123;database=berry_db;";
+        static string cadena_conexion = "Server=localhost;user=root;password=tics;database=berry_db;";
         static MySqlConnection conexion = new MySqlConnection(cadena_conexion);
+
         public Form1()
         {
             InitializeComponent();
             this.StartPosition = FormStartPosition.CenterScreen;
+
+
+
         }
 
         private void Form1_Load(object sender, EventArgs e)
@@ -26,7 +30,7 @@ namespace Berry_Administration
              
         }
 
-        private void textBox1_Enter(object sender, EventArgs e)
+        /*private void textBox1_Enter(object sender, EventArgs e)
         {
             if (textBox1.Text == "Usuario")
             {
@@ -42,7 +46,7 @@ namespace Berry_Administration
                 textBox1.Text = "Usuario";
                 textBox1.ForeColor = Color.White;
             }
-        }
+        }*/
 
         private void textBox2_Enter(object sender, EventArgs e)
         {
@@ -74,7 +78,7 @@ namespace Berry_Administration
         private void button1_Click(object sender, EventArgs e)
         {
             //Verifica si se estan insertando datos
-            if (textBox1.Text != "")
+            if (comboBox1.Text != "")
             {
                 if (textBox2.Text != "")
                 {
@@ -101,7 +105,7 @@ namespace Berry_Administration
 
                 string consulta = "SELECT COUNT(*) FROM usuarios WHERE usuario = @usuario AND contraseña = @contraseña";
                 MySqlCommand comando = new MySqlCommand(consulta, conexion);
-                comando.Parameters.AddWithValue("@usuario", textBox1.Text);
+                comando.Parameters.AddWithValue("@usuario", comboBox1.Text);
                 comando.Parameters.AddWithValue("@contraseña", textBox2.Text);
 
                 int count = Convert.ToInt32(comando.ExecuteScalar());
@@ -156,6 +160,26 @@ namespace Berry_Administration
         }
 
         private void comboBox1_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void iconButton1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void iconButton2_Click(object sender, EventArgs e)
+        {
+            this.Close();
+        }
+
+        private void label6_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void iconPictureBox1_Click(object sender, EventArgs e)
         {
 
         }
