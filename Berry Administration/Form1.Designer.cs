@@ -81,7 +81,7 @@
             this.Bienvenido.BackColor = System.Drawing.Color.Transparent;
             this.Bienvenido.Font = new System.Drawing.Font("Leelawadee", 26F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Bienvenido.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(32)))), ((int)(((byte)(21)))));
-            this.Bienvenido.Location = new System.Drawing.Point(270, 34);
+            this.Bienvenido.Location = new System.Drawing.Point(270, 39);
             this.Bienvenido.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.Bienvenido.Name = "Bienvenido";
             this.Bienvenido.Size = new System.Drawing.Size(226, 41);
