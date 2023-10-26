@@ -81,7 +81,7 @@
             this.Bienvenido.BackColor = System.Drawing.Color.Transparent;
             this.Bienvenido.Font = new System.Drawing.Font("Leelawadee", 26F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Bienvenido.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(32)))), ((int)(((byte)(21)))));
-            this.Bienvenido.Location = new System.Drawing.Point(270, 39);
+            this.Bienvenido.Location = new System.Drawing.Point(273, 9);
             this.Bienvenido.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.Bienvenido.Name = "Bienvenido";
             this.Bienvenido.Size = new System.Drawing.Size(226, 41);
@@ -91,10 +91,10 @@
             // pictureBox3
             // 
             this.pictureBox3.Image = global::Berry_Administration.Properties.Resources.fresasfresas;
-            this.pictureBox3.Location = new System.Drawing.Point(-2, -1);
+            this.pictureBox3.Location = new System.Drawing.Point(-13, 64);
             this.pictureBox3.Margin = new System.Windows.Forms.Padding(2);
             this.pictureBox3.Name = "pictureBox3";
-            this.pictureBox3.Size = new System.Drawing.Size(750, 143);
+            this.pictureBox3.Size = new System.Drawing.Size(761, 66);
             this.pictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
             this.pictureBox3.TabIndex = 17;
             this.pictureBox3.TabStop = false;
