@@ -11,9 +11,9 @@ using MySql.Data.MySqlClient;
 
 namespace Berry_Administration
 {
-    public partial class Form7 : Form
-    {
-        static string cadena_conexion = "Server=localhost;user=erikg;password=erikgiovani123;database=berry_db;";
+   public partial class Form7 : Form
+   {
+       static string cadena_conexion = "Server=localhost;user=erikg;password=erikgiovani123;database=berry_db;";
         static MySqlConnection conexion = new MySqlConnection(cadena_conexion);
 
         public Form7()
@@ -88,6 +88,6 @@ namespace Berry_Administration
                 MessageBox.Show("La asignación falló" + e);
             }
         }
-    }
+    } 
 }
 
