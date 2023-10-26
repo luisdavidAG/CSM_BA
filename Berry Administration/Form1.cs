@@ -13,8 +13,8 @@ namespace Berry_Administration
 {
     public partial class Form1 : Form
     {
-        static string cadena_conexion = "Server=localhost;user=root;password=tics;database=berry_db;";
-        static MySqlConnection conexion = new MySqlConnection(cadena_conexion);
+        //static string cadena_conexion = "Server=localhost;user=root;password=tics;database=berry_db;";
+        //static MySqlConnection conexion = new MySqlConnection(cadena_conexion);
 
         public Form1()
         {
@@ -68,7 +68,7 @@ namespace Berry_Administration
                 textBox2.Text = "Contraseña";
                 textBox2.ForeColor = Color.White;
 
-                if ( textBox2.Text == "Contraseña")
+                if (textBox2.Text == "Contraseña")
                 {
                     textBox2.UseSystemPasswordChar = false;
                 }
@@ -78,85 +78,85 @@ namespace Berry_Administration
         private void button1_Click(object sender, EventArgs e)
         {
             //Verifica si se estan insertando datos
-            if (comboBox1.Text != "")
-            {
-                if (textBox2.Text != "")
-                {
-                    login();
-                }
-                else
-                {
-                    MessageBox.Show("Ingresa una contraseña");
-                }
-            }
-            else
-            {
+            //if (comboBox1.Text != "")
+            //{
+            //    if (textBox2.Text != "")
+            //    {
+            //        login();
+            //    }
+            //    else
+            //    {
+            //        MessageBox.Show("Ingresa una contraseña");
+            //    }
+            //}
+            //else
+            //{
              
-                MessageBox.Show("Ingresa un usuario");
+            //    MessageBox.Show("Ingresa un usuario");
               
-            }
+            //}
         }
 
         private void login()
         {
-            try
-            {
-                conexion.Open();
+            //try
+            //{
+            //    conexion.Open();
 
-                string consulta = "SELECT COUNT(*) FROM usuarios WHERE usuario = @usuario AND contraseña = @contraseña";
-                MySqlCommand comando = new MySqlCommand(consulta, conexion);
-                comando.Parameters.AddWithValue("@usuario", comboBox1.Text);
-                comando.Parameters.AddWithValue("@contraseña", textBox2.Text);
+            //    string consulta = "SELECT COUNT(*) FROM usuarios WHERE usuario = @usuario AND contraseña = @contraseña";
+            //    MySqlCommand comando = new MySqlCommand(consulta, conexion);
+            //    comando.Parameters.AddWithValue("@usuario", comboBox1.Text);
+            //    comando.Parameters.AddWithValue("@contraseña", textBox2.Text);
 
-                int count = Convert.ToInt32(comando.ExecuteScalar());
+            //    int count = Convert.ToInt32(comando.ExecuteScalar());
 
-                string opcion = comboBox1.SelectedItem.ToString();
-                if (opcion == "Recopilador")
-                {
-                    if (count > 0)
-                    {
-                        this.Hide();
-                        Form2 form2 = new Form2();
-                        form2.Show();
-                    }
-                    else
-                    {
-                        MessageBox.Show("Contraseña incorrecta");
-                    }
-                }
-                else
-                {
-                    if (opcion == "Administrador")
-                    {
-                        if (count > 0)
-                        {
-                            this.Hide();
-                            Form3 form3 = new Form3();
-                            form3.Show();
-                        }
-                        else
-                        {
-                            MessageBox.Show("Contraseña incorrecta");
-                        }
-                    }
-                    else
-                    {
-                        MessageBox.Show("Seleccciona un usuario");
-                    }
-                }
+            //    string opcion = comboBox1.SelectedItem.ToString();
+            //    if (opcion == "Recopilador")
+            //    {
+            //        if (count > 0)
+            //        {
+            //            this.Hide();
+            //            Form2 form2 = new Form2();
+            //            form2.Show();
+            //        }
+            //        else
+            //        {
+            //            MessageBox.Show("Contraseña incorrecta");
+            //        }
+            //    }
+            //    else
+            //    {
+            //        if (opcion == "Administrador")
+            //        {
+            //            if (count > 0)
+            //            {
+            //                this.Hide();
+            //                Form3 form3 = new Form3();
+            //                form3.Show();
+            //            }
+            //            else
+            //            {
+            //                MessageBox.Show("Contraseña incorrecta");
+            //            }
+            //        }
+            //        else
+            //        {
+            //            MessageBox.Show("Seleccciona un usuario");
+            //        }
+            //    }
                 
-            }
-            catch (Exception ex)
-            {
-                MessageBox.Show("Contraseña incorrecta");
-            }
-            finally
-            {
-                if (conexion.State == ConnectionState.Open)
-                {
-                    conexion.Close();
-                }
-            }
+            //}
+            //catch (Exception ex)
+            //{
+            //    MessageBox.Show("Contraseña incorrecta");
+            //}
+            //finally
+            //{
+            //    if (conexion.State == ConnectionState.Open)
+            //    {
+            //        conexion.Close();
+            //    }
+            //}
         }
 
         private void comboBox1_SelectedIndexChanged(object sender, EventArgs e)
